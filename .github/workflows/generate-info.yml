@@ -1,0 +1,18 @@
+name: Generate formula info
+on: push
+
+jobs:
+  generate-info:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: "brew info --json"
+      run: |
+        rm -rf Info
+        mkdir -p Info
+        brew info --json Formula/dlq-utils.rb | jq '.[0]? // .' > ./Info/dlq-utils.json
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: 'Generated formula JSON info'
+        file_pattern: Info
