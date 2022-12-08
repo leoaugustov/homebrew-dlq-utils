@@ -5,21 +5,21 @@
 class DlqUtils < Formula
   desc "Set of scripts that help with dlq message processing"
   homepage "https://github.com/leoaugustov/dlq-utils"
-  url "https://github.com/leoaugustov/dlq-utils/archive/v0.2.0.tar.gz"
-  sha256 "7ae3287c70162322b9d452c95d02e19a0efc3288e096f030b4fef84bb8311711"
+  url "https://github.com/leoaugustov/dlq-utils/archive/v0.3.0.tar.gz"
+  sha256 "33b82770296fd72f530979497fc837df88676b0dbf635d616bfaced93ab1413c"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/leoaugustov/dlq-utils/releases/download/v0.2.0/dlq-utils-0.2.0-darwin-amd64.tar.gz"
-      sha256 "67a09d2933a65bdd8e85095c981466dcfb42cad9274437652a12efacffb06c1c"
+      url "https://github.com/leoaugustov/dlq-utils/releases/download/v0.3.0/dlq-utils-0.3.0-darwin-amd64.tar.gz"
+      sha256 "e5830b07829234cda43b05a75d66b61b8494ceeaadd3cfe512c7babc27c91cd7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/leoaugustov/dlq-utils/releases/download/v0.2.0/dlq-utils-0.2.0-linux-amd64.tar.gz"
-      sha256 "e30103f24beedf7d94749e49625421999c0b3ed86ab99a01ce9ef9ef4070adc9"
+      url "https://github.com/leoaugustov/dlq-utils/releases/download/v0.3.0/dlq-utils-0.3.0-linux-amd64.tar.gz"
+      sha256 "71865aef09d1ea06ad761bcac2d28f76097c2515bb4821e881af0d95807726e3"
     end
   end
 
