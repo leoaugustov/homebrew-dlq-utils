@@ -9,16 +9,16 @@
   "license": "MIT",
   "homepage": "https://github.com/leoaugustov/dlq-utils",
   "versions": {
-    "stable": "0.4.1",
+    "stable": "0.4.2",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.4.1/dlq-utils-0.4.1-darwin-amd64.tar.gz",
+      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.4.2/dlq-utils-0.4.2-darwin-amd64.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "ec20a8f52fc7d21059f3a2bfaaa9b38627455b821fa30f8b03865820d8141cf7"
+      "checksum": "63d4656145505aa7e6fd529e21985fe5f4e8c43755da0649eaacf4b09d15047b"
     }
   },
   "revision": 0,
