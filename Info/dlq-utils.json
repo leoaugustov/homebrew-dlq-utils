@@ -3,27 +3,30 @@
   "full_name": "dlq-utils",
   "tap": null,
   "oldname": null,
+  "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
   "desc": "Set of scripts that help with dlq message processing",
   "license": "MIT",
   "homepage": "https://github.com/leoaugustov/dlq-utils",
   "versions": {
-    "stable": "0.6.0",
+    "stable": "64",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.6.0/dlq-utils-0.6.0-darwin-amd64.tar.gz",
+      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.7.0/dlq-utils-0.7.0-darwin-amd64.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "98ea4a1316b69bf9840d4332555695a793872a291c2b9427753d104f5d6a11c7"
+      "using": null,
+      "checksum": "4a87036950e54054c21b2dbfb71cecc1c48fa4fe240f0f47e7a401266355b977"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {},
+  "pour_bottle_only_if": null,
   "keg_only": false,
   "keg_only_reason": null,
   "options": [],
@@ -33,6 +36,7 @@
   "recommended_dependencies": [],
   "optional_dependencies": [],
   "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
   "requirements": [],
   "conflicts_with": [],
   "conflicts_with_reasons": [],
@@ -48,8 +52,11 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
   "tap_git_head": null,
+  "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "cdcb516b4f4c17786b3d136aeb90353919c41ac09b3450b8ba678365206d2066"
+    "sha256": "c2d27c0f99f1882d1f4156dd2a435cc5a99818132bf1d8bd1688417e0bce3e6b"
   }
 }
