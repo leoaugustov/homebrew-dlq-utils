@@ -10,17 +10,17 @@
   "license": "MIT",
   "homepage": "https://github.com/leoaugustov/dlq-utils",
   "versions": {
-    "stable": "64",
+    "stable": "0.7.1",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.7.0/dlq-utils-0.7.0-darwin-amd64.tar.gz",
+      "url": "https://github.com/leoaugustov/dlq-utils/releases/download/v0.7.1/dlq-utils-0.7.1-darwin-amd64.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "4a87036950e54054c21b2dbfb71cecc1c48fa4fe240f0f47e7a401266355b977"
+      "checksum": "8aa615cdfbae53435239805791ada5db044068d5e889ca86fb130ab2effb4265"
     }
   },
   "revision": 0,
@@ -57,6 +57,6 @@
   "tap_git_head": null,
   "ruby_source_path": null,
   "ruby_source_checksum": {
-    "sha256": "c2d27c0f99f1882d1f4156dd2a435cc5a99818132bf1d8bd1688417e0bce3e6b"
+    "sha256": "0bf26e7eadde813c298e16c089193b4a28e9b7a3ec38f37745e05020f65ef30b"
   }
 }
